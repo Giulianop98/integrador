@@ -262,6 +262,11 @@ button{
 
 }
 
+@media  (min-width:300px){
+.parrafo{
+    font-size: 30px;
+}
+}
 /* section */
 
 .cards-container{
