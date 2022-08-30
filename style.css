@@ -266,6 +266,10 @@ button{
 .parrafo{
     font-size: 30px;
 }
+
+.cards-container{
+    height: 250vh;
+}
 }
 /* section */
 
