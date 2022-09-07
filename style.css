@@ -174,6 +174,21 @@ button{
     background-color: var(--orange);
     color: var(--black);
     cursor: pointer;
+    
+}
+
+@media (max-width:700px){
+    .iniciar{
+        margin-left: 28%;
+    }
+
+
+}
+
+@media (min-width:800px){
+    .iniciar{
+        margin-left: 40%;
+    }
 }
 
 /* register */
@@ -207,10 +222,37 @@ button{
     color: var(--orange);
     height: 3rem;
     font-size: 1rem;
-    margin: 1rem 2rem;
+   
     text-transform: uppercase;
+    margin-top: 5px;
 }
 
+
+@media (min-width:400px){
+     .section-content{
+      margin-left: 5rem;
+     }
+        
+    
+}
+
+@media (min-width:500px){
+    .section-content{
+        margin-left: 28rem;
+    }
+}
+
+@media (min-width:300px){
+    .section-content{
+        margin-left: 4rem ;
+    }
+}
+
+@media (min-width:700px){
+    .section-content{
+        margin-left: 28rem;
+    }
+}
 /* section */
 
 .section-container{
